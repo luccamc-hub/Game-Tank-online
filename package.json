@@ -1,0 +1,9 @@
+{
+  "name": "battle-lab-canvas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Jogo didatico de tanques em rede local com Canvas, DOM, eventos e backend Node.js.",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Battle Lab Canvas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="app">
+    <header class="app-header">
+      <div>
+        <h1>Battle Lab</h1>
+        <p class="subtitle">Tanques em rede local com Canvas, DOM, eventos e backend em Node.js.</p>
+      </div>
+      <p id="host-ip-label" class="network-card">Carregando IP do servidor...</p>
+    </header>
+
+    <section id="screen-home" class="panel">
+      <h2>Entrar na batalha</h2>
+      <p class="helper">
+        O primeiro navegador vira o Tanque 1. O segundo navegador na mesma rede vira o Tanque 2.
+      </p>
+
+      <form id="nick-form">
+        <input id="nick-input" type="text" placeholder="Digite seu nick" maxlength="16" />
+        <button type="submit">Conectar</button>
+      </form>
+
+      <p id="status-message">Digite um nick para comecar.</p>
+    </section>
+
+    <section id="screen-game" class="panel hidden">
+      <div id="hud">
+        <span id="player-label">Voce:</span>
+        <span id="score-label">Placar: 0 x 0</span>
+        <span id="connection-label">Jogadores conectados: 0/2</span>
+      </div>
+
+      <div id="game-wrapper">
+        <canvas id="game" width="900" height="520"></canvas>
+      </div>
+
+      <div id="controls">
+        <p><strong>Girar:</strong> A/D ou setas laterais</p>
+        <p><strong>Andar:</strong> W/S ou setas cima/baixo, sempre respeitando a orientacao do tanque</p>
+        <p><strong>Atirar:</strong> espaco &nbsp; <strong>Reiniciar rodada:</strong> R</p>
+      </div>
+    </section>
+
+    <section id="screen-end" class="panel hidden">
+      <h2 id="end-title">Fim de partida</h2>
+      <div class="actions">
+        <button id="restart-button">Jogar novamente</button>
+        <button id="back-button">Voltar ao inicio</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>
