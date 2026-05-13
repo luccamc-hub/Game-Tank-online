@@ -73,8 +73,9 @@ http://localhost:3000 (using ctrl + left mouse button)
 * Project Structure
 
 ```
-/project-root
-│
+
+/project-root │ ├── index.html ├── style.css ├── script.js │ └── server.js └── README.md
+
 
 
 ---
