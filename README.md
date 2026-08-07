@@ -69,7 +69,7 @@ http://localhost:3000 (using ctrl + left mouse button)
   
 
 My point of view:
-With this project, i was able to improve my knowledge in web development. This simple game was a real test of my analytical thinking, attencion to minimal details, and my ability to write clean and readable code as it evolved.
+ With this project, i was able to improve my knowledge in web development. This simple game was a real test of my analytical thinking, attencion to minimal details, and my ability to write clean and readable code as it evolved.
 
 * Project Structure
 
