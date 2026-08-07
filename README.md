@@ -1,7 +1,6 @@
 * Online Tank Game (Web)
 
-* Description
-  This is a browser-based multiplayer tank game where players control tanks on a battlefield. The objective is to eliminate opponents, dodge incoming attacks, and survive as long as possible.
+This is a browser-based multiplayer tank game where players control tanks on a battlefield. The objective is to eliminate opponents, dodge incoming attacks, and survive as long as possible.
 
 ---
 
@@ -67,8 +66,10 @@ http://localhost:3000 (using ctrl + left mouse button)
 * W, A, S, D → Move the tank
 * Spacebar → Shoot
 * Goal → Destroy your enemy and survive
+  
 
----
+My point of view:
+With this project, i was able to improve my knowledge in web development. This simple game was a real test of my analytical thinking, attencion to minimal details, and my ability to write clean and readable code as it evolved.
 
 * Project Structure
 
@@ -103,6 +104,8 @@ http://localhost:3000 (using ctrl + left mouse button)
 
 * License
   This project is licensed under the MIT License.
+
+  
 
 ---
 
